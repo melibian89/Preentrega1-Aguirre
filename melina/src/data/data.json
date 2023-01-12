@@ -1,0 +1,209 @@
+[
+    {
+      "id": 1,
+      "name": "Cerveza Corona ",
+      "description": "Estilo de cerveza: American Adjunct Lager Color: Rubia Origen: México Es cerveza artesanal: No Es cerveza sin alcohol: No Graduación alcohólica: 4.5 %. ",
+      "image": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/fotos/b/0000000060/92_1.jpg",
+      "price": 545,
+      "stock": 10,
+      "category": "Bebidas con alcohol"
+    },
+    {
+      "id": 2,
+      "name": "Cerveza Heineken",
+      "description": "Estilo de cerveza es  Rubia Es libre de gluten: No Volumen de la unidad 73 mL Origen: Holanda.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_602277-MLA44526951920_012021-F.webp",
+      "price": 460,
+      "stock": 20,
+      "category": "Bebidas con alcohol"
+    },
+    {
+      "id": 3,
+      "name": "Cerveza Quilmes",
+      "description": "Línea Clásica Estilo de cerveza: Lager Es libre de gluten: No, Color: Rubia Origen: Argentina. ",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_717222-MLA44743610449_012021-F.webp",
+      "price": 390,
+      "stock": 38,
+      "category": "Bebidas con alcohol"
+    },
+    {
+      "id": 4,
+      "name": "Cerveza Patagonia",
+      "description": "Estilo de cerveza: Bohemian Pilsener, Color: Rubia Origen: Argentina Es cerveza artesanal: No ,Graduación alcohólica: 5.2 %. ",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_759537-MLA50464478997_062022-F.webp",
+      "price": 570,
+      "stock": 95,
+      "category": "Bebidas con alcohol"
+    },
+    {
+      "id": 5,
+      "name": "Cerveza Rabieta",
+      "description": "Estilo de cerveza: Witbier Es libre de gluten: No Tipo de envase: Botella Volumen de la unidad: 710 cc",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_904112-MLA51390789605_092022-F.webp",
+      "price": 780,
+      "stock": 19,
+      "category": "Bebidas con alcohol"
+    },
+    {
+      "id": 6,
+      "name": "Coca Cola",
+      "description": "Marca: Coca-Cola Sabor: Original - Menos Azúcar  Presentación: Botella plástica Contenido neto: 1.75 Litros.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_921402-MLA47339012570_092021-F.webp",
+      "price": 450,
+      "stock": 67,
+      "category": "Bebida sin alcohol"
+    },
+    {
+      "id": 7,
+      "name": "Sprite",
+      "description": "Marca: Sprite Sabor: Lima Limón. Presentación: Botella Contenido neto: 2,25 Litros Cantidad: 1 Botella.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_794107-MLA50998845246_082022-F.webp",
+      "price": 380,
+      "stock": 73,
+      "category": "Bebida sin alcohol"
+    },
+    {
+      "id": 8,
+      "name": "Fanta",
+      "description": " Marca: Fanta. Sabor: Naranja. Contenido neto: 1,75l",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_924092-MLA51458783273_092022-F.webp",
+      "price": 390,
+      "stock": 35,
+      "category": "Bebida sin alcohol"
+    },
+    {
+      "id": 9,
+      "name": "Aquarius",
+      "description": "Sabor:Naranja Volumen de la unidad: 10 mL Es agua gasificada: No Es libre de gluten: No Es producto dietético: No Es bajo en sodio: No.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_781948-MLA53179774560_012023-F.webp",
+      "price": 270,
+      "stock": 46,
+      "category": "Bebida sin alcohol"
+    },
+    {
+      "id": 10,
+      "name": "Levite Fizz",
+      "description": "Agua Saborizada Levite Pomelo Fizz x 2,25 l, Sabor: Pomelo",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_701892-MLA52577516823_112022-F.webp",
+      "price": 279,
+      "stock": 70,
+      "category": "Bebida sin alcohol"
+    },
+    {
+      "id": 11,
+      "name": "Franui Chocolate Con Leche",
+      "description": "Nombre FRANUI CHOCOLATE CON LECHE Y CHOCOLATE BLANCO Sabor: Chocolate con leche Agregado: Frambues Peso de la unidad:150 g Tipo de envase:Pote.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_730367-MLA52447503789_112022-F.webp",
+      "price": 890,
+      "stock": 30,
+      "category": "Congelados"
+    },
+    {
+      "id": 12,
+      "name": "Franui Chocolate Semiamargo",
+      "description": "Nombre FRANUI CHOCOLATE SEMIAMARGO Y CHOCOLATE BLANCO Sabor: Chocolate amargo Agregado: Frambues Peso de la unidad:150 g Tipo de envase:Pote.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_977546-MLA46870462272_072021-F.webp",
+      "price": 890,
+      "stock": 47,
+      "category": "Congelados"
+    },
+    {
+      "id": 13,
+      "name": "Helado Familiar Vacalin Postre Almendrado ",
+      "description": "Peso neto: 900 gTipo de envase: Caja Es light: No Es libre de gluten: Sí Es libre de lactosa: No Es orgánico: No Es helado de agua: No",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_792854-MLA50895833926_072022-F.webp",
+      "price": 2500,
+      "stock": 35,
+      "category": "Congelados"
+    },
+    {
+      "id": 14,
+      "name": "Postre Balcarce Original - Vainilla",
+      "description": "Marcado a Fuego”, tradicional combinación de pionono, merengue imperial, dulce de leche, crema chantilly, batatas en almíbar, almendras y coco rallado. Presentación x 600 gr.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_933161-MLA43462774615_092020-F.webp",
+      "price": 2800,
+      "stock": 32,
+      "category": "Congelados"
+    },
+    {
+      "id": 15,
+      "name": "Postre Balcarce - Tiramisú",
+      "description": "Tradicional combinación italiana de bizcochuelo humedecido con licor al café, queso crema, crema chantilly, espolvoreado con cacao amargo. Presentación x 600 gr.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_888555-MLA44023502664_112020-F.webp",
+      "price": 2800,
+      "stock": 53,
+      "category": "Congelados"
+    },
+    {
+      "id": 16,
+      "name": "Postre Balcarce - Chocolate",
+      "description": "Combinación de pionono, merengue imperial y crema chantilly, saborizado con cacao amargo. Presentación x 600 gr.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_870540-MLA43798167035_102020-F.webp",
+      "price": 2800,
+      "stock": 53,
+      "category": "Congelados"
+    },
+    {
+      "id": 17,
+      "name": "Postre Balcarce - Duomo Dulce De Leche",
+      "description": "Base de bizcochuelo humedecido con almíbar, dulce de leche y merengue imperial.Presentación x 600 gr.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_605143-MLA43798187561_102020-F.webp",
+      "price": 2800,
+      "stock": 13,
+      "category": "Congelados"
+    },
+    {
+      "id": 18,
+      "name": "Papas Fritas Lays Clasicas",
+      "description": " Marca: Lay´s Tipo: Papas Fritas. Contenido neto: 94g.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_656184-MLA51949531487_102022-F.webp",
+      "price": 360,
+      "stock": 81,
+      "category": "Snacks"
+    },
+    {
+      "id": 19,
+      "name": "Pringles Crema&cebolla",
+      "description": "Tipo: Papas Fritas.Sabor Crema y Cebolla. Contenido neto: 194g",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_744655-MLA45318013930_032021-F.webp",
+      "price": 1200,
+      "stock": 93,
+      "category": "Snacks"
+    },
+    {
+      "id": 20,
+      "name": "Papas Fritas Krachitos Cheddar",
+      "description": "Tipo: Papas Fritas.Sabor: Cheddar. Contenido neto: 140g.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_858486-MLA51045953180_082022-F.webp",
+      "price": 580,
+      "stock": 77,
+      "category": "Snacks"
+    },
+    {
+      "id": 21,
+      "name": "Nachos Macritas",
+      "description": "Tipo de snack: Nacho Peso de la unidad: 250 Es libre de gluten: Sí Es un producto horneado: Sí.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_847385-MLA45416141201_042021-F.webp",
+      "price": 690,
+      "stock": 12,
+      "category": "Snacks"
+    },
+    {
+      "id": 22,
+      "name": "Snacks Pita Chips De Masa Madre Cebolla",
+      "description": "Marca: Almadre Tipo de snack Snacks de Masa Madre Sabor:Cebolla.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_712688-MLA50911736169_072022-F.webp",
+      "price": 340,
+      "stock": 68,
+      "category": "Snacks"
+    },
+    {
+      "id": 23,
+      "name": "Batatitas Nuestros Sabores",
+      "description": "Batatas, remolachas, sal marina y aceite de girasol.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_602459-MLA44100474894_112020-F.webp",
+      "price": 180,
+      "stock": 74,
+      "category": "Snacks"
+    }
+    ]
