@@ -1,14 +1,14 @@
 import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
-import { FaTrashAlt } from "react-icons/fa"
+import { BsCart4 } from "react-icons/bs"
 import { Link } from "react-router-dom"
 
-const CCaarito = () => {
+const Cart = () => {
 
-    const { carrito, carritoVacio, totalCarrito, removerItem } = useContext(CartContext)
+    const { cart, emptycart, totalCart, removerItem } = useContext(CartContext)
 
 
-    if (carrito.length === 0) {
+    if (cart.length === 0) {
         return (
             <div className="container my-5">
                 <h2>Tu carrito está vacío</h2>
@@ -25,23 +25,23 @@ const CCaarito = () => {
                 <hr/>
 
                 {
-                    carrito.map(item => (
+                    cart.map(item => (
                         <div key={item.id}>
                             <h4>{item.name}</h4>
                             <p>Cantidad: {item.cantidad}</p>
                             <p>Precio: ${item.price * item.cantidad}</p>
-                            <button onClick={() => removerItem(item.id)} className="btn btn-outline-danger"><FaTrashAlt /></button>
+                            <button onClick={() => removerItem(item.id)} className="btn btn-outline-danger"><BsCart4 /></button>
                             <hr/>
                         </div>
                     ))
                 }
 
-                <h4>Total: ${ totalCarrito() }</h4>
+                <h4>Total: ${ totalCart() }</h4>
             
-            <button className="btn btn-danger" onClick={carritoVacio}>Vaciar carrito</button>
+            <button className="btn btn-danger" onClick={emptycart}>Vaciar carrito</button>
             <Link className="btn btn-success mx-2" to="/checkout">Terminar mi compra</Link>
         </div>
     )
 }
 
-export default Carrito
+export default Cart

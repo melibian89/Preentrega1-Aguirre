@@ -15,13 +15,11 @@ function NavBar() {
             <Nav.Link className="header__link" to="/productos/bebidasconalcohol">Bebidas con alcohol</Nav.Link>
             <Nav.Link className="header__link" to="/productos/congelados">Congelados</Nav.Link>
             <Nav.Link className="header__link" to="/productos/snacks">Snacks</Nav.Link>
+            <CartWidget/>
           </Nav>
         </Container>
       </Navbar>
-      <div>
-        < CartWidget />
-        </div>
-    </>
+      </>
   );
 }
 

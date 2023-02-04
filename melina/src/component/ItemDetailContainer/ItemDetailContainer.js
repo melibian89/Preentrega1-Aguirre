@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { pedirItemPorId } from "../../data/data.json"
+import { pedirItemPorId} from "../../pedirdatos/pedirDatos"
 import ItemDetail from "../ItemDetail/ItemDetail"
 
 const ItemDetailContainer = () => {

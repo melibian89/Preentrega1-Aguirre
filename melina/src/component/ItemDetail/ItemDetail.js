@@ -55,7 +55,12 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
             
             <hr/>
 
-             <button className="btn btn-primary" onClick={handleVolver}>Volver</button>
+            {/* <Select 
+                options={talles}
+                set={setTalle}
+            /> */}
+            
+            <button className="btn btn-primary" onClick={handleVolver}>Volver</button>
         </div>
     )
 }
