@@ -1,11 +1,13 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { useCartContext } from "../../context/CartContext"
 import ItemCount from "../ItemCount/ItemCount"
-import Select from "../ItemCount/Select"
-
 
 
 const ItemDetail = ( {id, name, stock, category, image, description, price} ) => {
+
+    const { agregarAlCarrito, isInCart } = useCartContext()
+
     const [cantidad, setCantidad] = useState(1)
 
     const navigate = useNavigate()
@@ -15,7 +17,7 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
     }
 
     const handleAgregar = () => {
-        console.log({
+        const item = {
             id,
             name,
             stock,
@@ -24,28 +26,39 @@ const ItemDetail = ( {id, name, stock, category, image, description, price} ) =>
             description,
             price,
             cantidad
-        })
-    }
+        }
 
+        agregarAlCarrito(item)
+    }
 
     return (
         <div>
             <h2>{name}</h2>
-            <img src={image}/>
+            <img src={image} alt=""/>
             <br/>
             <small>Categoría: {category}</small>
             <p>{description}</p>
             <p>Precio: ${price}</p>
 
+            { stock <= 20 && <h5>Últimas unidades disponibles!</h5> }
 
-            <ItemCount 
-                cantidad={cantidad}
-                setCantidad={setCantidad}
-                max={stock}
-                onAdd={handleAgregar}
-            />
+            {
+                !isInCart(id)
+                    ? <ItemCount 
+                            cantidad={cantidad}
+                            setCantidad={setCantidad}
+                            max={stock}
+                            onAdd={handleAgregar}
+                        />
+                    : <Link to="/cart" className="btn btn-success">Terminar mi compra</Link>
+            }
+            
             <hr/>
 
+            {/* <Select 
+                options={talles}
+                set={setTalle}
+            /> */}
             
             <button className="btn btn-primary" onClick={handleVolver}>Volver</button>
         </div>
